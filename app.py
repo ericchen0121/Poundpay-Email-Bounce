@@ -25,7 +25,6 @@ def index():
 def email_bounce():
     payment = poundpay.Payment.find(sid=request.form['Message-ID'])
     payment.status = 'ESCROWED'
-    assert payment.status == 'ESCROWED'
     # payment.save() # save produces a 400 bad request
     return pprint.pformat(payment.__dict__)
 
