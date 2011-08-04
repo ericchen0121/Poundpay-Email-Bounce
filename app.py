@@ -23,8 +23,12 @@ def index():
 
 @app.route('/email/bounce', methods=['POST'])
 def email_bounce():
-    payment = poundpay.Payment.find(sid=request.form['Message-ID'])
-    payment.status = 'ESCROWED'
+    # print "im in the funciton" #debug test
+    s = request.form['Message-ID']
+    # print s #debug test
+    payment = poundpay.Payment.find(sid=s.encode('ascii'))
+    # print 'Poundpay server logged in' #debug test
+    payment.status = str('ESCROWED')
     # payment.save() # save produces a 400 bad request
     return pprint.pformat(payment.__dict__)
 
@@ -56,4 +60,4 @@ if __name__ == '__main__':
     parser.add_option('--port', '-p', default=3000, type=int)
     options, _args = parser.parse_args()
     poundpay.configure(**config.get_credentials_for_env(options.environment))
-    app.run(debug=True, options.port)
+    app.run(debug=True, port=options.port)

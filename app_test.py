@@ -8,10 +8,9 @@ class TestEmailBounceFunction(unittest.TestCase):
 
     def test_email_bounce(self):
         '''Check to see email bounce callback works'''
-        rv = self.app.post('/email/bounce', data={
-            'Message-ID':self.payment_sid
-        }, follow_redirects=True)
-        #print rv.data #debug
+        #import ipdb; ipdb.set_trace();
+        rv = self.app.post('/email/bounce', data={'Message-ID':str('PY436d63cab9ad11e081291231400042c7')}, follow_redirects=True)
+        #print rv #debug test
         assert 'ESCROWED' in rv.data
 
         

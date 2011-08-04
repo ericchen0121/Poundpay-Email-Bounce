@@ -59,19 +59,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="app.py" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="app.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="58" column="24" selection-start="1717" selection-end="1717" vertical-scroll-proportion="0.0">
+            <state line="28" column="42" selection-start="715" selection-end="715" vertical-scroll-proportion="0.5543478">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="app_test.py" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="app_test.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app_test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="8" selection-start="496" selection-end="496" vertical-scroll-proportion="0.3726708">
+            <state line="9" column="54" selection-start="292" selection-end="292" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -96,8 +96,8 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/app.py" />
         <option value="$PROJECT_DIR$/app_test.py" />
+        <option value="$PROJECT_DIR$/app.py" />
       </list>
     </option>
   </component>
@@ -329,13 +329,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="5" selection-start="248" selection-end="248" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../setup.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="11" column="22" selection-start="223" selection-end="223" vertical-scroll-proportion="0.0">
@@ -364,16 +357,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app.py">
+    <entry file="file://$PROJECT_DIR$/config.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="58" column="24" selection-start="1717" selection-end="1717" vertical-scroll-proportion="0.0">
+        <state line="10" column="5" selection-start="248" selection-end="248" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app_test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="8" selection-start="496" selection-end="496" vertical-scroll-proportion="0.3726708">
+        <state line="9" column="54" selection-start="292" selection-end="292" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="42" selection-start="715" selection-end="715" vertical-scroll-proportion="0.5543478">
           <folding />
         </state>
       </provider>
