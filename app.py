@@ -29,6 +29,7 @@ def email_bounce():
     # payment.save() # save produces a 400 bad request
     return pprint.pformat(payment.__dict__)
 
+
 @app.route('/payment', methods=['POST'])
 def post_payment():
     payment_details = session['payment_details'] = request.form.to_dict()

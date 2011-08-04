@@ -59,19 +59,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="app.py" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="app.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="34" column="39" selection-start="981" selection-end="981" vertical-scroll-proportion="0.0">
+            <state line="37" column="0" selection-start="1023" selection-end="1023" vertical-scroll-proportion="0.63190186">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="app_test.py" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="app_test.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app_test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="72" selection-start="433" selection-end="433" vertical-scroll-proportion="0.39110428">
+            <state line="17" column="72" selection-start="433" selection-end="433" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -91,8 +91,8 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/app.py" />
         <option value="$PROJECT_DIR$/app_test.py" />
+        <option value="$PROJECT_DIR$/app.py" />
       </list>
     </option>
   </component>
@@ -359,16 +359,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app.py">
+    <entry file="file://$PROJECT_DIR$/app_test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="39" selection-start="981" selection-end="981" vertical-scroll-proportion="0.0">
+        <state line="17" column="72" selection-start="433" selection-end="433" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app_test.py">
+    <entry file="file://$PROJECT_DIR$/app.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="72" selection-start="433" selection-end="433" vertical-scroll-proportion="0.39110428">
+        <state line="37" column="0" selection-start="1023" selection-end="1023" vertical-scroll-proportion="0.63190186">
           <folding />
         </state>
       </provider>
