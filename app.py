@@ -56,4 +56,4 @@ if __name__ == '__main__':
     parser.add_option('--port', '-p', default=3000, type=int)
     options, _args = parser.parse_args()
     poundpay.configure(**config.get_credentials_for_env(options.environment))
-    app.run(debug=True, port=options.port)
+    app.run(debug=True, options.port)
